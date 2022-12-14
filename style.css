@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arimo', serif;
+}
+.container {
+    margin: 0px 179px;
+}
+.header__line {
+    display: flex;
+    justify-content: space-between;
+}
+.header__title {
+    font-family: 'Arimo', serif;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 27px;
+    color: #62D0DF;
+}
+.header__menu {
+    display: flex;
+    padding-top: 20px;
+    font-size: 14px;
+    justify-content: space-between;
+}
