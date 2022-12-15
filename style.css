@@ -1,23 +1,57 @@
 body {
-    font-family: 'Arimo', serif;
+    font-family: serif;
+    margin: 0;
 }
+
 .container {
-    margin: 0px 179px;
+    margin: 0px 165px;
 }
-.header__line {
+header {
+    padding-bottom: 35px;
+    padding-top: 36px;
+    background-image: url(/images/placeholder.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
     display: flex;
+    font-family: HelveticaNeueBold, serif;
+    color: white;
     justify-content: space-between;
 }
-.header__title {
-    font-family: 'Arimo', serif;
-    font-size: 24px;
-    text-align: left;
-    padding-top: 27px;
-    color: #62D0DF;
+
+.screen {
 }
-.header__menu {
+.menu {
     display: flex;
-    padding-top: 20px;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a {
+    color: white;
+    margin-right: 45px;
+    text-decoration: none;
     font-size: 14px;
-    justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    transition: color 0.2s linear;
 }
+.menu a:hover {
+    color: #34C759;
+}
+
+/*font links*/
+@font-face {
+    font-family: "HelveticaNeue"; 
+    src: url("fonts/HelveticaNeue.ttf"); 
+    } 
+@font-face {
+    font-family: "HelveticaNeueLt"; 
+    src: url("fonts/HelveticaNeueLt.ttf"); 
+    } 
+@font-face {
+    font-family: "HelveticaNeueBold"; 
+    src: url("fonts/HelveticaNeueBd.ttf"); 
+    } 
